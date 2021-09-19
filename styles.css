@@ -1,0 +1,23 @@
+/****************************TAG SELECTORS**********************/
+h1{ 
+   color : red;
+   font-size: 200px;
+  }
+img:hover{ /*whenever hover over the images changes its bg color to gold*/
+    background-color : gold;
+      } 
+/****************************CLASS SELECTORS********************/
+.bacon{
+    background-color:green;
+          }
+.broccoli{
+    background-color : red;
+             }
+.circular{
+    border-radius: 100%;
+} /*one html element can have two different classes*/
+/****************************ID SELECTORS***********************/
+#heading{
+     color: blue;
+}
+/*both class and id overrides the tag selectors*/
